@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    background-color: #7700ff;
+}
+
+.quizCard{
+    width: 600px;
+    height: auto;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap : 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.quizCard > button{
+    width: 200px;
+    font-size: 18px;
+    padding: 7px;
+    border: 2px solid transparent;
+    transition: .3s;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.quizCard > h2{
+    color: rgb(234, 193, 253);
+}
+
+.quizCard > .options{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+.quizCard > .options > p{
+    font-size: 18px;
+    background-color: #dec2ff;
+    padding: 8px 20px;
+    width: auto;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.quizCard > .options > p:hover{
+    background-color: rgb(140, 0, 255);
+}
+
+/* //if option is not available empty  */
+.quizCard > .options > p:empty{
+    display: none;
+}
+
+
+
+button:hover{
+    background-color: #7700ff;
+    cursor: pointer;
+    border: 2px solid #7700ff;
+}
+
+
+#selected_answer{
+    color: red;
+    font-size: 18px;
+    background-color: #000000;
+    border: 1px solid #eee;
+    padding: 8px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+
+@media (max-width : 600px) {
+    .quizCard{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .quizCard > h2{
+        font-size: 19px;
+        color: rgb(234, 193, 253);
+    }
+}

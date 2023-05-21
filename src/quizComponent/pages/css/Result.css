@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height: 100dvh;
+}
+
+#Result_card{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+
+#Result_card > img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top : 0px;
+    object-fit: cover;
+}
+
+#Result_count{
+    position: absolute;
+    bottom: 55px;
+    color: rgb(255, 255, 255);
+}
+
+#Result_status_Pass{
+    position: absolute;
+    bottom: 15px;
+    color: Lime;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#Result_status_Fail{
+    position: absolute;
+    bottom: 15px;
+    color: rgb(211, 0, 0);
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width : 600px) {
+    #Result_card{
+        width:300px;
+    }
+}
