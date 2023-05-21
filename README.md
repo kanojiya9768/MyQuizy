@@ -1,4 +1,4 @@
-# MyQuizy
+# MyQuizy (REACT JS)
 
 This is Quiz Application Which provide Mcq Test on Multiple Programming Langauges.
 
