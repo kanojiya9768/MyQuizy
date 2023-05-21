@@ -2,6 +2,8 @@
 
 This is Quiz Application Which provide Mcq Test on Multiple Programming Langauges.
 
+Live Link : https://myquizy.netlify.app/
+
 1.>Home Page Click Get Started
 
 2.>Choose Subject For MCQ Test
