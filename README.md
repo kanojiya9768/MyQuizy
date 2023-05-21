@@ -19,11 +19,17 @@ This is Quiz Application Which provide Mcq Test on Multiple Programming Langauge
 Features
 
 1.>Fast Loading
+
 2.>Light Weight Quiz App
+
 3.>Multiple Technical MCQ's Test Available
+
 4.>One Question Load At A time
+
 5.>Pagination Added
+
 6.>Context Api Used For State Management
+
 7.>REST Api Integrated
 
 
